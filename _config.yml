@@ -1,0 +1,13 @@
+destination: ./_site
+auto:        true
+lsi:         false
+server_port: 4000
+pygments:    false
+markdown:    maruku
+exclude:
+  - config.rb
+  - config.ru
+  - Gemfile
+  - Gemfile.lock
+
+
