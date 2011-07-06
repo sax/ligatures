@@ -1,9 +1,13 @@
 @mixin nav-button($type) {
   &##{$type} {
-    @include navigation-sprite($type, false, 0, 0);
-    @include hide-text;
+    @include navigation-sprite($type, false, 0, 20);
+    @include link-colors(#1E3723, #191919);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lucida Grande", sans serif;
+    font-height: 20px;
     width: 76px;
-    height: 91px;
+    height: 111px;
   }
 }
 body {

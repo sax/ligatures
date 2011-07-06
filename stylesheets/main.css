@@ -1,29 +1,37 @@
 /* line 45, navigation */
-.navigation-sprite, .navigation-bios, .navigation-listen, .navigation-live, .navigation-photos, a#bios, a#photos, a#listen, a#live { background: url('/images/sprites/navigation-sd28dad45a4.png') no-repeat; }
+.navigation-sprite, .navigation-bios, .navigation-listen, .navigation-live, .navigation-photos, a#bios, a#photos, a#listen, a#live { background: url('/images/sprites/navigation-s917fdeeca7.png') no-repeat; }
 
 /* line 60, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .navigation-bios { background-position: 0 0; }
 
 /* line 60, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.navigation-listen { background-position: 0 -91px; }
+.navigation-listen { background-position: 0 -111px; }
 
 /* line 60, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.navigation-live { background-position: 0 -182px; }
+.navigation-live { background-position: 0 -222px; }
 
 /* line 60, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.navigation-photos { background-position: 0 -273px; }
+.navigation-photos { background-position: 0 -333px; }
 
-/* line 9, ../_sass/shared/_styles.scss */
+/* line 13, ../_sass/shared/_styles.scss */
 body { background: #c2da8b url(/images/background.png) repeat 0 0; }
 
 /* line 2, ../_sass/shared/_styles.scss */
-a#bios { background-position: 0 0; text-indent: -119988px; overflow: hidden; text-align: left; width: 76px; height: 91px; }
+a#bios { background-position: 0 20px; color: #1e3723; text-decoration: none; text-transform: uppercase; font-family: "Lucida Grande", sans serif; font-height: 20px; width: 76px; height: 111px; }
+/* line 24, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a#bios:hover { color: #191919; }
 /* line 2, ../_sass/shared/_styles.scss */
-a#photos { background-position: 0 -273px; text-indent: -119988px; overflow: hidden; text-align: left; width: 76px; height: 91px; }
+a#photos { background-position: 0 -313px; color: #1e3723; text-decoration: none; text-transform: uppercase; font-family: "Lucida Grande", sans serif; font-height: 20px; width: 76px; height: 111px; }
+/* line 24, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a#photos:hover { color: #191919; }
 /* line 2, ../_sass/shared/_styles.scss */
-a#listen { background-position: 0 -91px; text-indent: -119988px; overflow: hidden; text-align: left; width: 76px; height: 91px; }
+a#listen { background-position: 0 -91px; color: #1e3723; text-decoration: none; text-transform: uppercase; font-family: "Lucida Grande", sans serif; font-height: 20px; width: 76px; height: 111px; }
+/* line 24, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a#listen:hover { color: #191919; }
 /* line 2, ../_sass/shared/_styles.scss */
-a#live { background-position: 0 -182px; text-indent: -119988px; overflow: hidden; text-align: left; width: 76px; height: 91px; }
+a#live { background-position: 0 -202px; color: #1e3723; text-decoration: none; text-transform: uppercase; font-family: "Lucida Grande", sans serif; font-height: 20px; width: 76px; height: 111px; }
+/* line 24, ../../../.rvm/gems/ruby-1.8.7-p299@ligatures/gems/compass-0.11.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a#live:hover { color: #191919; }
 
 /* line 2, ../_sass/main/_index.scss */
 #index h1 { margin: 8% auto 0; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1306879819'); background-repeat: no-repeat; background-position: 0 0; width: 418px; height: 219px; }
