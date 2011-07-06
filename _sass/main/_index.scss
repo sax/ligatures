@@ -1,0 +1,23 @@
+#index {
+  h1 {
+    margin: 8% auto 0;
+    @include replace-text-with-dimensions('logo.png', 0, 0);
+  }
+
+  div {
+    width: 586px;
+    height: 125px;
+    margin: 65px auto 0;
+
+    a {
+      display: block;
+      float: left;
+      margin-right: 94px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}
+

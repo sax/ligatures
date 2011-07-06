@@ -1,3 +1,18 @@
+@mixin nav-button($type) {
+  &##{$type} {
+    @include navigation-sprite($type, false, 0, 0);
+    @include hide-text;
+    width: 76px;
+    height: 91px;
+  }
+}
 body {
   background: #C2DA8B url(/images/background.png) repeat 0 0;
+}
+
+a {
+  @include nav-button(bios);
+  @include nav-button(photos);
+  @include nav-button(listen);
+  @include nav-button(live);
 }

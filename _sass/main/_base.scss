@@ -1,6 +1,1 @@
-#index {
-  h1 {
-    margin: 0 auto;
-    +replace-text-with-dimensions('/images/logo.png', 0, 0);
-  }
-}
+@import 'index';
