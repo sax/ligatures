@@ -14,8 +14,8 @@
       float: left;
       margin-right: 94px;
 
-      &:last-child {
-        margin: 0;
+      &#live {
+        @include last;
       }
     }
   }

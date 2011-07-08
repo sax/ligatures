@@ -1,5 +1,6 @@
 _site
 .sass-cache
 
-# ignore compiled compass sprites
+# ignore compiled compass assets
+stylesheets/**/*.css
 images/sprites/*-*.png
