@@ -1,0 +1,26 @@
+$blueprint-grid-columns: 20;
+$blueprint-container-size: 750px;
+
+.container {
+  @include container;
+}
+
+#nav {
+  @include column(2);
+  @include min-width(70px);
+  margin-top: 130px;
+
+  h1 {
+    position: absolute;
+    top: 0px;
+  }
+}
+
+#content {
+  @include column(18, true);
+  @include stretch-y(10px, 10px);
+  background: rgba(255,255,255,0.5);
+  margin-top: 90px;
+  padding: 20px;
+  font-family: Verdana, sans-serif;
+}

@@ -1,0 +1,9 @@
+#nav {
+  text-align: right;
+
+  h1 {
+    a {
+      @include replace-text-with-dimensions('logo-small.png', 0, 0);
+    }
+  }
+}
