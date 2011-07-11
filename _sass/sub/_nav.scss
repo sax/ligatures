@@ -4,6 +4,21 @@
   h1 {
     a {
       @include replace-text-with-dimensions('logo-small.png', 0, 0);
+      opacity: 1;
+    }
+  }
+
+  a {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
     }
   }
 }
+
+#bios #nav a#bios { opacity: 1; }
+#photos #nav a#photos { opacity: 1; }
+#listen #nav a#listen { opacity: 1; }
+#live #nav a#live { opacity: 1; }
+

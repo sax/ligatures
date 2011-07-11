@@ -4,14 +4,13 @@
     <title>the ligatures :: {{ page.title }}</title>
     {% stylesheet 'stylesheets/sub.css' %}
   </head>
-  <body>
+  <body id="{{ page.title }}">
     <div class="container">
       <div id="nav">
         {% include header.html %}
         {% include nav.html %}
       </div>
       <div id="content">
-        <h2>{{ page.title }}</h2>
         {{ content }}
       </div>
     </div>
