@@ -1,5 +1,5 @@
-$blueprint-liquid-grid-columns: 18;
-$blueprint-liquid-container-min-width: 705px;
+$blueprint-liquid-grid-columns: 19;
+$blueprint-liquid-container-min-width: 736px;
 
 @import "blueprint/liquid";
 
@@ -8,7 +8,7 @@ $blueprint-liquid-container-min-width: 705px;
 }
 
 #nav {
-  @include prepend(1);
+  @include prepend(2);
   @include column(2);
   @include min-width(70px);
   margin-top: 130px;
