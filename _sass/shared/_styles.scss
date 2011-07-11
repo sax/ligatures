@@ -1,14 +1,15 @@
 @mixin nav-button($type) {
   &##{$type} {
-    @include navigation-sprite($type, false, 0, 20);
+    @include navigation-sprite($type, false, 0, 30);
     @include link-colors(#1E3723, #191919);
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Arima", sans-serif;
     font-height: 20px;
     display: block;
     width: 76px;
-    height: 111px;
+    height: 121px;
+    padding-top: 10px;
   }
 }
 

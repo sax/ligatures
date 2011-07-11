@@ -1,0 +1,36 @@
+#nav {
+  h1 {
+    position: absolute;
+    top: 10px;
+    z-index: 900;
+  }
+}
+
+#content {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Arimo", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: top;
+  }
+
+  h3 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  div {
+    margin: 16px 0 0;
+    padding-bottom: 32px;
+    background: url(/images/sprites/florets/flower.png) no-repeat 50% 100%;
+
+    &:last-child, &.last {
+      background: none;
+    }
+  }
+
+  p {
+    margin: 0 0 16px;
+  }
+
+}

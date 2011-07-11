@@ -1,5 +1,5 @@
 @import "compass/utilities/sprites/base";
 
-$navigation-spacing: 20px;
+$navigation-spacing: 30px;
 @import "sprites/navigation/*.png";
 @include all-navigation-sprites;

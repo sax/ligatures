@@ -1,26 +1,25 @@
-$blueprint-grid-columns: 20;
-$blueprint-container-size: 650px;
+$blueprint-liquid-grid-columns: 18;
+$blueprint-liquid-container-min-width: 705px;
+
+@import "blueprint/liquid";
 
 .container {
   @include container;
 }
 
 #nav {
+  @include prepend(1);
   @include column(2);
   @include min-width(70px);
   margin-top: 130px;
-
-  h1 {
-    position: absolute;
-    top: 0px;
-  }
 }
 
 #content {
-  @include column(18, true);
-  @include stretch-y(10px, 10px);
+  @include column(15);
+  @include min-height(650px);
+  min-width: 545px;
   background: rgba(255,255,255,0.5);
   margin-top: 90px;
   padding: 20px;
-  font-family: Verdana, sans-serif;
+  font-family: 'Caudex', serif;
 }
