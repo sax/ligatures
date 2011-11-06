@@ -33,4 +33,12 @@
     margin: 0 0 16px;
   }
 
+  .block {
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
+  }
 }
